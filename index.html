@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Maquiagens</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Nossa Loja de Maquiagens!</h1>
+        <p>Encontre a maquiagem perfeita para realçar sua beleza. Explore nossos produtos e transforme seu visual!</p>
+        <section class="cta">
+            <button onclick="location.href='#about'">Sobre Nós</button>
+            <button onclick="location.href='#products'">Nossos Produtos</button>
+            <button onclick="location.href='#contact'">Entre em Contato</button>
+        </section>
+    </header>
+    
+    <main>
+        <section id="about" class="about">
+            <h2>Sobre Nós</h2>
+            <p>Na <strong>Loja de Maquiagens</strong>, acreditamos que a beleza é única para cada pessoa. Desde 2010, temos como missão oferecer produtos de alta qualidade e uma experiência inesquecível para todos os nossos clientes.</p>
+            <div class="about-highlights">
+                <div class="highlight">
+                    <h3>Qualidade Garantida</h3>
+                    <p>Trabalhamos apenas com marcas reconhecidas no mercado.</p>
+                </div>
+                <div class="highlight">
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Nossa equipe está sempre pronta para ajudar você a brilhar.</p>
+                </div>
+                <div class="highlight">
+                    <h3>Entrega Rápida</h3>
+                    <p>Receba seus produtos no conforto de sua casa.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="product">
+                <img src="./assets/shopping.webp" alt="Base Líquida">
+                <h3>Base Líquida</h3>
+                <p>Base leve com acabamento radiante.</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product">
+                <img src="./assets/shopping (2).webp" alt="Paleta de Sombras">
+                <h3>Paleta de Sombras</h3>
+                <p>Paleta com cores vibrantes para todos os estilos.</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product">
+                <img src="./assets/shopping (3).webp" alt="Batom Cremoso">
+                <h3>Batom Cremoso</h3>
+                <p>Batom hidratante com longa duração.</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product">
+                <img src="./assets/shopping (4).webp" alt="Delineador Líquido">
+                <h3>Delineador Líquido</h3>
+                <p>Delineador de longa duração para um olhar marcante.</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Entre em Contato</h2>
+            <form class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+                <textarea id="message" name="message" rows="4" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja de Maquiagens.</p>
+    </footer>
+</body>
+</html>
